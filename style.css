@@ -22,13 +22,15 @@ body {
 }
 
 #result {
-    background-color: gainsboro;
+    background-color: #77687a;
+    color: white;
+    font-weight: bold;
 }
 
 input {
     width: 70%;
     color: rgb(36, 35, 42);
-    font-size: 18px;
+    font-size: 20px;
     line-height: 18px;
     min-height: 30px;
     border-radius: 6px;
@@ -73,8 +75,8 @@ input {
 }
 
 p {
-    display:inline-block;
-    width:50%;
+    display: inline-block;
+    width: 50%;
     font-size: 20px;
     font-weight: bold;
 }
@@ -83,33 +85,32 @@ p {
     color: white;
     font-weight: bold;
 }
- 
+
 .outline-text-thick {
-text-shadow:
-            -2px -2px 0 #000,
-            2px -2px 0 #000,
-            -2px 2px 0 #000,
-            2px 2px 0 #000;
+    text-shadow:
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;
 }
+
 .outline-text {
     text-shadow:
-                -1px -1px 0 #000,
-                1px -1px 0 #000,
-                -1px 1px 0 #000,
-                1px 1px 0 #000;
-    }
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
 
 
-    .myAlert {
-        display:inline-block;
-        margin-top: 20px;
-        padding: 10px;
-        background-color: #de5d70;
-        color: white;
-        font-size: 20px;
-        border-radius: 5px;
-        width: 50%;
-        font-weight: bold;
-        
-      }
-
+.myAlert {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #de5d70;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 50%;
+    font-weight: bold;
+}
