@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>nickstanley574 | lock-it</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <img id="lock-img" src="lock.svg" />
+    <h1 class="outline-text-thick">LINE LOCK</h1>
+
+    <p class="outline-text">
+        Simple static page that encrypt and decrypts single lines of text.
+        Using the crypto-js javascript library. Source code <a class="github-link"
+            href="https://github.com/your-username/your-repository"><span>Github</span></a>.
+    </p>
+    <input id="user-input" placeholder="Input"></input>
+    <input placeholder="Key" id="password"></input>
+    <input id="result" class="results" placeholder="Result" disabled></input>
+    <br>
+    <button class="button-54" onclick="encrypt()">Encrypt 🔒</button>
+    <button class="button-54" onclick="decrypt()">Decrypt 🔑</button>
+    <button class="button-54" onclick="resetInputs()">Clear 🧹</button>
+
+</body>
+
+</html>

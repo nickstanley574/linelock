@@ -1,0 +1,115 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+
+html,
+body {
+    height: 100%;
+    color: white;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to bottom right, #64347a 50%, #320449de 50%);
+}
+
+#lock-img {
+    width: 4%;
+    margin-top: 2%;
+}
+
+#result {
+    background-color: gainsboro;
+}
+
+input {
+    width: 70%;
+    color: rgb(36, 35, 42);
+    font-size: 18px;
+    line-height: 18px;
+    min-height: 30px;
+    border-radius: 6px;
+    padding: 8px 16px;
+    border: 2px solid transparent;
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 6px 5px;
+    background: rgb(251, 251, 251);
+    transition: all 0.1s ease 0s;
+    margin: 20px;
+}
+
+
+
+/* CSS */
+.button-54 {
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    margin: 20px;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 155px;
+}
+
+.button-54:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
+
+@media (min-width: 768px) {
+    .button-54 {
+        padding: 0.25em 0.75em;
+    }
+}
+
+p {
+    display:inline-block;
+    width:50%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.github-link {
+    color: white;
+    font-weight: bold;
+}
+ 
+.outline-text-thick {
+text-shadow:
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+            2px 2px 0 #000;
+}
+.outline-text {
+    text-shadow:
+                -1px -1px 0 #000,
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+    }
+
+
+    .myAlert {
+        display:inline-block;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #de5d70;
+        color: white;
+        font-size: 20px;
+        border-radius: 5px;
+        width: 50%;
+        font-weight: bold;
+        
+      }
+
